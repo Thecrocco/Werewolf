@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <strings>
-  <language name="Español (España)" base="Español" variant="España"/>
+  <language name="Español (FurryMurcia)" base="Español" variant="FurryMurcia"/>
   <string key="NotInGame">
-    <value>No parece que estés en una partida ahora mismo...</value>
+    <value>No estás en Furry Murcia. Vuelve cuando compres el pan.</value>
   </string>
   <string key="PlayerStartedGame">
     <!-- 0 - Player name -->
-    <value>¡{0} ha empezado una partida! Usa /join para unirte a la diversión… y probablemente morir :P</value>
-    <value>¡{0} ha iniciado una nueva partida! ¡Usa /join para ser comido!</value>
+    <value>¡{0} ha empezado una partida! Usa /join para unirte a la diversión… y ver que hace Haky esta noche.</value>
+    <value>¡{0} ha iniciado una nueva partida! ¡Usa /join para comprar el pan!</value>
   </string>
   <string key="PlayerStartedChaosGame">
    <!-- 0 - Player name -->
-   <value>¡{0} ha empezado una partida caótica! Usa /join para unirte a la diversión… y probablemente morir :P</value>
-   <value>¡{0} ha iniciado una nueva partida caótica! ¡Usa /join para ser comido!</value>
+   <value>¡{0} ha empezado una partida caótica! Usa /join para unirte a la diversión… y ver que hace Haky esta noche </value>
+   <value>¡{0} ha iniciado una nueva partida caótica! ¡Usa /join para comprar el pan!</value>
  </string>
   <string key="NoJoinGameRunning">
-    <value>¡No te puedes unir ahora! La partida ya ha comenzado.</value>
+    <value>Acho, estás tonto o que. Nadie está jugando.</value>
   </string>
   <string key="AlreadyJoined">
     <value>¡Ya te has unido!</value>
   </string>
   <string key="MinuteLeftToJoin">
-    <value>Queda 1 minuto restante para unirse con /join</value>
+    <value>Te queda 1 minuto para entrar, o violamos a Jay. /join</value>
   </string>
   <string key="SecondsLeftToJoin">
     <!-- 0 - remaining seconds (number) -->
-    <value>Quedan {0} segundos para unirse con /join</value>
+    <value>{0} segundos para unirse con /join</value>
   </string>
   <string key="NotEnoughPlayers">
-    <value>¡No hay suficientes jugadores, se cancela el juego!</value>
+    <value>¡Habeis hecho a Stitch llorar!</value>
   </string>
   <string key="StartingGameWait">
     <value>El juego está empezando, espera un segundo mientras asigno los roles y actualizo la base de datos.</value>
@@ -61,7 +61,7 @@
   </string>
   <string key="Flee">
     <!-- 0 - Player name -->
-    <value>¡{0} ha huido presa del pánico!</value>
+    <value>¡{0} se ha escapado con el pan!</value>
   </string>
   <string key="PlayerRoleWas">
     <!-- 0 - Player name -->
@@ -92,31 +92,31 @@
   <string key="PlayerVotedLynch">
     <!-- 0 - Voter name -->
     <!-- 1 - Target name -->
-    <value>{0} ha votado linchar a {1}.</value>
+    <value>{0} ha votado encerrar en el sótano de Wan a {1}.</value>
   </string>
   <string key="IdleKill">
     <!-- 0 - player name -->
     <!-- 1 - player role -->
-    <value>{0} no ha votado dos noches seguidas. Las fuerzas del bien han visto esto como un crimen terrible y {0} cae de repente, muerto.\n{1}.</value>
+    <value>{0} no sabe que hacer con su vida {0} cae de repente, muerto. Sin mas.\n{1}.</value>
   </string>
   <string key="TraitorTurnWolf">
-    <value>¡¡¡Tú, traidor!!! Ahora eres un hombre-lobo...</value>
+    <value>¡¡¡Tú, achopijo!!! Ahora eres un Blaya...</value>
   </string>
   <string key="ChoiceAccepted">
-    <value>Ya has elegido. No hay vuelta atrás.</value>
+    <value>Mas vale que sirva.</value>
   </string>
   <string key="BeholderSeer">
     <!-- 0 - seer name -->
-    <value>\nEl vidente es {0}.</value>
+    <value>\nRathalos es {0}.</value>
   </string>
   <string key="ApprenticeNowSeer">
     <!-- 0 - seer name -->
-    <value>{0} era el vidente. Como su aprendiz, es tu turno de convertirte en vidente.</value>
+    <value>{0} era Rathalos. Como su aprendiz, es tu turno de convertirte en él. Será una transformación rápida pero dolorosa.</value>
   </string>
   <string key="BeholderNewSeer">
     <!-- 0 - apprentice name -->
     <!-- 1 - seer name -->
-    <value>{0} era un aprendiz, ahora ha llegado su turno de relevar a {1} como el nuevo vidente.</value>
+    <value>{0} era un aprendiz, ahora ha llegado su turno de relevar a {1} como el nuevo Rathalos.</value>
   </string>
   <string key="SeerSees">
     <!-- 0 - player name -->
@@ -124,17 +124,17 @@
     <value>¡Percibes que {0} es {1}!</value>
   </string>
   <string key="AskLynch">
-    <value>¿A quién quieres linchar?</value>
+    <value>¿A quién quieres encerrar en el sótano de Wan?</value>
   </string>
   <string key="AskDetect">
-    <value>¿A quién quieres investigar?</value>
+    <value>¿A quién quieres ver en la ducha?</value>
   </string>
   <string key="AskShoot">
     <!-- 0 - bullet count -->
     <value>¿A quién quieres disparar? {0} bala(s) restantes.</value>
   </string>
   <string key="AskVisit">
-    <value>¿A quién quieres visitar?</value>
+    <value>¿A quién quieres darle sexo duro?</value>
   </string>
   <string key="AskSee">
     <value>¿A quién quieres percibir?</value>
@@ -164,34 +164,34 @@
     <value> y </value>
   </string>
   <string key="RoleInfoCursed">
-    <value>Estás maldito. Por el momento, eres un aldeano, pero si los hombres-lobo te matan, en lugar de morir te convertirás en uno de ellos.</value>
+    <value>Eres un trollazo. Por el momento, eres Wario, pero si algún Blaya te mata, en lugar de morir te convertirás en otro de ellos.</value>
   </string>
   <string key="RoleInfoDetective">
-    <value>Eres el detective. Durante el día, puedes elegir un jugador para investigar su rol. Sin embargo, si lo haces, tienes un 40% de probabilidad de que tu rol se revele a los hombres-lobo.</value>
+    <value>Eres Sagi, el buscador de mapaches. Puedes ver quien es cada uno, pero Blaya podrá oler tus ganas de sexo con ringtails y pillarte.</value>
   </string>
   <string key="RoleInfoDrunk">
-    <value>¡Enhorabuena! ¡Eres la borracha del pueblo! (De verdad, todo el mundo lo sabe...).</value>
+    <value>¡Enhorabuena! ¡Eres Darky, la borracha del pueblo! Te pasas las noches jugando al Beer pong y cuando no tienes cerveza, pierdes la cabeza.</value>
   </string>
   <string key="RoleInfoGuardianAngel">
-    <value>Eres el Ángel de la Guarda. Cada noche, puedes elegir un jugador para proteger. Sin embargo, si eliges un hombre-lobo existe un 50% de probabilidad de que mueras.</value>
+    <value>Eres Ren. Intenta que nadie muera en tu turno, o sufre la rabia de Blaya.</value>
   </string>
   <string key="RoleInfoGunner">
-    <value>Eres el justiciero. Tienes dos balas. Durante el día, puedes elegir disparar a otro jugador. Todo el mundo oirá los disparos y sabrá que eres el justiciero (y no un hombre-lobo).</value>
+    <value>Eres Hyena con un hacha. Estás sediento de sangre. Adelante, sácale brillo a ese filo y corta unas cuantas cabezas.</value>
   </string>
   <string key="RoleInfoHarlot">
-    <value>¡Putón! Eres la ramera. Durante la noche puedes visitar a otro jugador y sabrás si es un aldeano (no es un hombre-lobo). Si visitas a un hombre-lobo o a su víctima esa noche, morirás. Por otro lado, si esa noche los hombres-lobo tratan de matarte, no te encontrarán en casa y sobrevivirás.</value>
+    <value>¡Rubia! Eres Haky. Infíltrate cada noche en la cama de alguien para ya sabes qué. No te olvides de usar protección, y no tengas sexo con Blaya o te despedezará.</value>
   </string>
   <string key="RoleInfoTraitor">
-    <value>¡Traidor! Por ahora, eres un aldeano, pero una vez el resto de hombre-lobo mueran, te convertirás en uno de ellos. Si la vidente te elige, puede que te identifique como hombre-lobo, o no.</value>
+    <value>Zaqueo, mapache... te infiltras en el pueblo como otro cualquiera pero si todos los Blaya mueren, te convertirás en uno de ellos.</value>
   </string>
   <string key="RoleInfoWolf">
-    <value>¡¡ERES UN HOMBRE-LOBO!! (Bien por tí). Cada noche podrás elegir comerte a alguien. MUAJAJAJAJA</value>
+    <value>¡¡ERES BLAYA!! Ya sabes, a matar cada noche a quien peor te caiga.</value>
   </string>
   <string key="RoleInfoSeer" >
-    <value >Eres la vidente. Cada noche puedes elegir un personaje para percibir su rol.</value>
+    <value >Eres Rathalos. Con tu poder espiritual podrás ver el aura de quien elijas cada vez, y saber con certeza de quién se trata.</value>
   </string>
   <string key="RoleInfoVillager" >
-    <value >Eres un simple aldeano. Estás condenado a pasar tus días labrando el campo.. y ser comido.</value>
+    <value >Eres Yandrak. Puede que no te enteres de nada… o sí. Básicamente eres presa fácil.</value>
   </string>
   <string key="RoleInfoTanner" >
     <value >Eres el veterano. Si consigues ser linchado, ¡ganas inmediatamente!</value>
